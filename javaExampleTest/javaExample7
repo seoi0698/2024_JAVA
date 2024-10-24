@@ -1,0 +1,83 @@
+//주어진 문제를 읽고 알맞은 답을 작성하시오.
+
+
+
+//(1) 주어진 보기를 참고하여 괄호(   )에 알맞은 답을 작성하시오.
+
+//<보기>
+//!=, else, same, if, null, equals, ==
+
+
+//(2) 결과 값을 보고 hobby1 과 hobby2는 참조가 같지만 hobby3와 hobby4는 왜 참조가 다른지 설명하시오.
+
+
+
+
+
+public class JavaExam {
+
+        public static void main(String[] args) {
+
+                String hobby1 = "테니스";
+
+                String hobby2 = "테니스";
+
+                
+
+                if(hobby1 (   ) hobby2) {
+
+                        System.out.println("hobby1과 hobby2는 참조가 다름");
+
+                } (   ) {
+
+                        System.out.println("hobby1과 hobby2는 참조가 같음");
+
+                }
+
+                
+
+                if(hobby1.(   )(hobby2)) {
+
+                        System.out.println("hobby1과 hobby2는 문자열이 같음");
+
+                }
+
+                
+
+                String hobby3 = new String("테니스");
+
+                String hobby4 = new String("테니스");
+
+                
+
+                if(hobby3 (   ) hobby4) {
+
+                        System.out.println("hobby3과 hobby4는 참조가 같음");
+
+                } (   ) {
+
+                        System.out.println("hobby3과 hobby4는 참조가 다름");
+
+                }
+
+                
+
+                if(hobby3.(   )(hobby4)) {
+
+                        System.out.println("hobby3과 hobby4는 문자열이 같음");
+
+                }
+
+        }
+
+}
+
+
+
+
+
+/*<실행결과>
+hobby1과 hobby2는 참조가 같음
+hobby1과 hobby2는 문자열이 같음
+hobby3과 hobby4는 참조가 다름
+hobby3과 hobby4는 문자열이 같음 */

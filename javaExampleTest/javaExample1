@@ -1,0 +1,37 @@
+/* Car 클래스의 새로운 객체를 만들기 위해 다음과 같이 인스턴스 변수를 선언한 후 Car에 대한 생성자를 선언하고 객체를 초기화하는 소스코드를 작성하였으나 컴파일 에러가 발생하였다.
+
+어떤 문제가 발생하였는지 메모리 구조적 관점에서 설명한 후 모식도를 그리고 해결방안을 제시하시오. */
+
+
+
+public class Car {
+
+    String company = RenaultKorea;           
+
+    String model = SM6 ;             
+
+    String manufacturer = Busan;      
+
+    
+
+    int maxspeed = 240;       
+
+    int speed = 0;            
+
+
+
+    Car(String company, String model, String manufacturer, int maxSpeed, int speed) {
+
+        company = company;    
+
+        model = model;        
+
+        manufacturer = manufacturer;
+
+        maxspeed = maxSpeed; 
+
+        speed = speed;        
+
+    }
+
+}

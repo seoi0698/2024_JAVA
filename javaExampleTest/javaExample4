@@ -1,0 +1,40 @@
+//  다음 코드는 powerOn() 메소드와 divide() 메소드 그리고 plus() 메소드를 사용하여 만든 계산기이다. 하지만 이 계산기는 0으로 나눌 때 오류를 알려주지 않는다. 다음 코드를 수정하여 나누는 수가 0일 때에는  수정 전 코드 출력값에서 "0으로 나눌 수 없습니다. "를 추가로 출력하고 result2에 0을 반환하는 계산기를 만들어라.
+
+package sec04.exam01;
+
+public class Calculator {
+
+    void powerOn() {
+        System.out.println("전원을 켭니다.");
+    }
+
+    int plus(int x, int y) {
+        return x + y;
+    }
+
+    double divide(int x, int y) {
+        return (double)x / y;
+    }
+
+    void powerOff() {
+        System.out.println("전원을 끕니다.");
+    }
+}
+
+public class CalculatorExample {
+    public static void main(String[] args) {
+        Calculator myCalc = new Calculator();
+        myCalc.powerOn();
+
+        int result1 = myCalc.plus(5, 6);
+        System.out.println("result1: " + result1);
+
+        byte x = 10;
+        byte y = 0;
+       
+        double result2 = myCalc.divide(x, y);
+        System.out.println("result2: " + result2);
+
+        myCalc.powerOff();
+    }
+}

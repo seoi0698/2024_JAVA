@@ -1,0 +1,41 @@
+/*다음 코드는 for 반복문을 이용해  루프 카운터 변수 x가 1.0f 보다 작다면 0.1f를 반복하여 더하는 반복문일 때,
+
+다음 코드의 실행 결과는 x 와 y 는 다름을 출력한다.
+
+이때 x와 y의 다른 이유를 설명하시오. */
+
+
+//p.(174 ~ 175)
+package example;
+
+public class FlaotExample {
+
+
+	public static void main(String[] args) {
+
+
+		float x;	
+
+		float y = 1.0f;
+
+
+		for ( x = 0.1f;  x <= 1.0f;  x += 0.1f ) {
+
+		}
+
+
+
+		if ( x -0.1f  == y ) {
+
+			      System.out.println("x와 y는 같음.");
+
+		} else {
+
+			       System.out.println("x와 y는 다름.");
+
+		}
+
+	}
+
+}
+//실행 결과 :  x와  y는 다름.

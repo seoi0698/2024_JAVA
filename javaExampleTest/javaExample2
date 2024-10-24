@@ -1,0 +1,11 @@
+// 틀린 부분을 수정하고,  실행 결과를 쓰시오 
+
+class StudentExample {
+    public static void main(String[] args) {
+        student s1 = new Student():
+        System.out.println("s1 변수가 Student 객체를 참조합니다.");
+       
+        student s2 = new Student():
+        System.out.println("s2 변수가 또 다른 Student 객체를 참조합니다.");
+    }
+}

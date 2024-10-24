@@ -1,0 +1,35 @@
+빈 공간에 들어갈 코드를 입력하고, 실행 결과를 적으시오.
+
+
+
+package sec03.exam03;
+
+
+
+pubilc class ByteOperationExample {
+
+  pubilc static void main (______________) {
+
+    (________________)
+
+    System.out.println(result1);
+
+    
+
+    byte x = 10;
+
+    byte y = 20;
+
+    int result2 = x  + y;
+
+    System.out.println(result2);
+
+  }
+
+}
+
+//정답
+Stirng[] args
+byte result1 = 10 + 20;
+
+문제 개 똥

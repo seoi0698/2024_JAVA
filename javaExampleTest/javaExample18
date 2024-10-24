@@ -1,0 +1,28 @@
+//다음 코드의 결과를 작성하고, 메모리에 객체가 어떻게 생성되는지 간략히 그림으로 나타내며, 쓰레기 객체를 표시하시오.
+
+public class test {
+
+    public static void main (String[] args) {
+        String[] strArray=new String[5]; 
+        strArray[0]="Suncheon";
+        strArray[1]="University";
+        strArray[2]= new String("AI"); 
+        strArray[3]=new String("University"); 
+        strArray[4]="Suncheon";
+
+        System.out.println(strArray[0]==strArray[4]);
+        System.out.println(strArray[1]==strArray[3]);
+        System.out.println(strArray[1].equals(strArray[3]));
+
+        strArray [2]=new String("Suncheon"); 
+        strArray[3]="University";
+
+        System.out.println(strArray[0].equals(strArray[2]));
+        System.out.printin(strArray[0]==strArray[2]);
+        System.out.println(strArray[0]==strArray[4]);
+        System.out.println(strArray[1].equals(strArray[3]));
+        System.out.println(strArray[1]==strArray[3]);
+    }
+}
+
+//정답
