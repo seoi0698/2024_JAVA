@@ -1,6 +1,6 @@
 package SM.sec09.exam05;
 
-
+\
 public class OutterExample {
 	public static void main(String[] args) {
 		Outter outter = new Outter();

@@ -7,8 +7,8 @@ public class CarExample {
 		
 		myCar.run();
 		
-		myCar.frontLeftTire = new KumhoTire();
-		myCar.frontRightTire = new KumhoTire();
+		myCar.frontLeftTire = new KunmhoTire();
+		myCar.frontRightTire = new KunmhoTire();
 		
 		myCar.run();
 	}
